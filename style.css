@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+ul {
+    text-align: right;
+    font-family: arial, sans-serif;
+    
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    line-height: 15px;
+    vertical-align: middle;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav a {
+    color: rgba(0,0,0,0.87);
+}
+
+li img {
+    border-radius: 50%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#apps {
+    text-decoration: none;
+}
+
+#content {
+    width: 100vw;
+    height: 65.2vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+input {
+    width: 35vw;
+    height: 5vh;
+    border: 1px solid #dadce0;
+    border-radius: 35px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    padding-left: 3vw;
+    margin-top: 15px;
+}
+
+.search {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: right;
+    transform: translate(1950%,-230%);
+    border: none !important;
+    background: transparent;
+    background-image: url(/Images/google-search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.microphone
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(1050%,-130%);
+    border: none !important;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    width: 8vw;
+    height: 4vh;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 0 4px;
+    border: none;
+    color: #202124;
+    background-color: #f8f9fa;;
+}
+
+button:hover {
+    border: 1px solid #dadce0;
+}
+
+footer {
+    width: 100vw;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+footer div {
+    padding: 14px 30px;
+}
+
+footer div a {
+    color: rgba(0,0,0,.54);
+    margin-right: 20px; 
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+#local {
+    border-bottom: 1px solid #dadce0;
+}
+
+.f_right {
+    right: 0;
+}
+
