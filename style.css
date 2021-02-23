@@ -63,7 +63,7 @@ input {
     transform: translate(1950%,-230%);
     border: none !important;
     background: transparent;
-    background-image: url(/Images/google-search.png);
+    background-image: url(https://michalosman.github.io/google-homepage/images/google-search.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
